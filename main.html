@@ -8,6 +8,45 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form class="main">
+		<fieldset>
+			<legend>Dog Adoption Application</legend>
+
+		    <label for="name">Name : </label>
+		    
+		    <input id="name" type="text"   name="name"/>
+		    <br/>
+		    <br/>
+
+		    <label>Phone Number :</label>
+		    <input id="phone" type="text"  name="phone"/>
+		    <br/>
+		    <br/>
+
+		    <label for="address">Address :</label>
+		    <textarea id="address" type="text"></textarea> 
+		    <br/>
+		    <br/>
+
+		    <label>Have you ever lived with a Dog before?</label>
+		    <input type="checkbox" id="checkbox" name="checkbox">
+		    <br/>
+		    <br/>
+
+		    <label>Please select your preferred breeds: </label>
+		    <select id="multiSelect" name="multiselect[]" multiple size="3">
+		    	<option>-------Select preferred breeds-------</option>
+		    	<option>Labrador Retriever</option>
+		    	<option>Golden Retriever</option>
+		    	<option>Beagle</option>
+		    </select>
+		    <br/>
+		    <br/>
+           <button id="submit" type="submit" value="Submit" name=""> Submit</button>
+
+  </fieldset>
+</form>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
